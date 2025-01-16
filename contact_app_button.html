@@ -1,0 +1,21 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Button</title>
+    </head>
+    <body>
+        <h2>Click the button to open your Contact App</h2>
+        <button onclick="openContactApp()">Open Contact App</button>
+
+        <script>
+            function openContactApp() {
+                // Use a tel: URI scheme to open the default dialer/contact app
+                window.location.href = 'tel:+1234567890'; // Replace with a phone number or leave empty
+            }
+        </script>
+    </body>
+    </html>
+    
